@@ -62,7 +62,7 @@ def check_all_messages(message):
     response("Your degree is just a piece of paper, your education is seen in your behavior, attitude and character.",['quote','education'],required_words=['quote'])
     response('Telangana',['indian','state','government','set','it','camp','for','differently','abled','people'],required_words=['state','government','it','camp','differently','abled'])
     response('Nothing just passing the time.',['what','are','you','doing'],required_words=['what','doing'])
-    response('I was created by Nagorao and Kanishk',['who','created','made','developed','you','invented'],required_words=['who','you'])
+    response('I was created by Nagorao.',['who','created','made','developed','you','invented'],required_words=['who','you'])
     response('You should watch Dr. Stone. It is a great anime which teaches you and entertain you at the same time.',['which','what','cartoon','anime','should','watch','see','recommend'],required_words=['anime'])
     response('It\'s on 10th August 2023',['what','date','submission'],required_words=['date'])
     response('Software Engineer \n Network Architect/Engineer \n Game Designer', ['career','options','career','option','cs','computer','science'],required_words=['career'])
