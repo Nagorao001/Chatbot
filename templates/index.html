@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduBot — Your Education Assistant</title>
+    <meta name="description" content="EduBot is an intelligent chatbot that answers your questions about education, knowledge, and learning.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="chat-container" id="chat-container">
+        <!-- Header -->
+        <div class="chat-header">
+            <div class="header-left">
+                <div class="bot-avatar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2a4 4 0 0 1 4 4v1h1a3 3 0 0 1 3 3v7a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3v-7a3 3 0 0 1 3-3h1V6a4 4 0 0 1 4-4z"/>
+                        <circle cx="9" cy="13" r="1.25" fill="currentColor" stroke="none"/>
+                        <circle cx="15" cy="13" r="1.25" fill="currentColor" stroke="none"/>
+                        <path d="M9 17c1 1 5 1 6 0"/>
+                    </svg>
+                </div>
+                <div class="header-info">
+                    <h1>EduBot</h1>
+                    <span class="status-badge">
+                        <span class="status-dot"></span>
+                        Online
+                    </span>
+                </div>
+            </div>
+            <div class="header-right">
+                <button class="icon-btn" id="clear-chat-btn" title="Clear chat">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                        <polyline points="3 6 5 6 21 6"/>
+                        <path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Messages Area -->
+        <div class="chat-messages" id="chat-messages">
+            <!-- Welcome message -->
+            <div class="welcome-section" id="welcome-section">
+                <div class="welcome-icon">
+                    <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M24 4a8 8 0 0 1 8 8v2h2a6 6 0 0 1 6 6v14a6 6 0 0 1-6 6H14a6 6 0 0 1-6-6V20a6 6 0 0 1 6-6h2v-2a8 8 0 0 1 8-8z" fill="rgba(99,102,241,0.15)"/>
+                        <circle cx="18" cy="26" r="2.5" fill="currentColor" stroke="none"/>
+                        <circle cx="30" cy="26" r="2.5" fill="currentColor" stroke="none"/>
+                        <path d="M18 34c2 2 10 2 12 0" stroke-width="2"/>
+                    </svg>
+                </div>
+                <h2>Hello! I'm EduBot 👋</h2>
+                <p>I can help you learn about education, knowledge, literacy, study tips, and more. Ask me anything!</p>
+                <div class="quick-chips" id="quick-chips">
+                    <button class="chip" data-message="What is education?">📚 What is education?</button>
+                    <button class="chip" data-message="Give me study tips">✏️ Study tips</button>
+                    <button class="chip" data-message="What is the education system in India?">🇮🇳 Education in India</button>
+                    <button class="chip" data-message="Online vs offline education">💻 Online vs Offline</button>
+                    <button class="chip" data-message="What are the benefits of education?">🎓 Benefits</button>
+                    <button class="chip" data-message="Current literacy rate in India">📊 Literacy rate</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Input Area -->
+        <div class="chat-input-area">
+            <div class="input-wrapper">
+                <input 
+                    type="text" 
+                    id="message-input" 
+                    placeholder="Type your question here..." 
+                    autocomplete="off"
+                    maxlength="500"
+                >
+                <button id="send-btn" title="Send message">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                    </svg>
+                </button>
+            </div>
+            <p class="input-hint">Press Enter to send · Created by Nagorao & Kanishk</p>
+        </div>
+    </div>
+
+    <script src="/static/js/chat.js"></script>
+</body>
+</html>
