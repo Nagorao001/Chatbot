@@ -153,8 +153,9 @@ Send a message to the chatbot.
 
 ## 👥 Authors
 
-- **Nagorao**
-- **Kanishk**
+=======
+- **Nagorao Dinkar Kute**
+>>>>>>> 47f17bb05ee2859e5d7f83d82f94639bb750c3f8
 
 ## 📄 License
 
