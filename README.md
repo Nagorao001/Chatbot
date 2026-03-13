@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🤖 EduBot — Your Education Assistant
+#  EduBot — Your Education Assistant
 
 **An intelligent chatbot that answers questions about education, knowledge, literacy, and learning.**
 
@@ -10,19 +10,19 @@ Built with Python · Flask · Vanilla JS
 
 </div>
 
-## 📖 About
+##  About
 
 EduBot is a web-based chatbot designed to answer questions related to **education in India** — covering topics like the education system, literacy rates, study tips, online vs. offline learning, and more. When a predefined answer isn't available, EduBot automatically searches **Wikipedia** and provides a summary, ensuring users always get a helpful response.
 
-## ✨ Features
+##  Features
 
-- 💬 **Natural Language Processing** — Keyword-matching engine that understands user intent and returns the best response
-- 🌐 **Wikipedia Fallback** — Automatically queries Wikipedia when no predefined answer matches the user's question
-- 🔍 **Google Search Fallback** — Provides a Google search link as a last resort if Wikipedia lookup fails
-- 🛡️ **Rate Limiting** — Built-in IP-based rate limiter (10 requests/minute) to prevent abuse
-- ⚡ **Quick Reply Chips** — Pre-built topic buttons for instant access to popular questions
-- 🎨 **Modern UI** — Sleek, responsive chat interface with smooth animations and dark theme
-- 🧹 **Chat History Control** — Clear chat button to reset the conversation
+-  **Natural Language Processing** — Keyword-matching engine that understands user intent and returns the best response
+-  **Wikipedia Fallback** — Automatically queries Wikipedia when no predefined answer matches the user's question
+-  **Google Search Fallback** — Provides a Google search link as a last resort if Wikipedia lookup fails
+-  **Rate Limiting** — Built-in IP-based rate limiter (10 requests/minute) to prevent abuse
+-  **Quick Reply Chips** — Pre-built topic buttons for instant access to popular questions
+-  **Modern UI** — Sleek, responsive chat interface with smooth animations and dark theme
+-  **Chat History Control** — Clear chat button to reset the conversation
 
 ## 🛠️ Tech Stack
 
@@ -34,7 +34,7 @@ EduBot is a web-based chatbot designed to answer questions related to **educatio
 | Knowledge  | Wikipedia API             |
 | Font       | Inter (Google Fonts)      |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Chatbot-2.0/
@@ -51,7 +51,7 @@ Chatbot-2.0/
         └── chat.js      # Frontend chat logic & API calls
 ```
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -96,16 +96,16 @@ Chatbot-2.0/
    http://localhost:5000
    ```
 
-## 💡 Usage
+##  Usage
 
 - Type any education-related question in the chat input
 - Use the **quick reply chips** for popular topics like:
-  - 📚 *What is education?*
-  - ✏️ *Study tips*
-  - 🇮🇳 *Education in India*
-  - 💻 *Online vs Offline*
-  - 🎓 *Benefits of education*
-  - 📊 *Literacy rate*
+  -  *What is education?*
+  -  *Study tips*
+  -  *Education in India*
+  -  *Online vs Offline*
+  -  *Benefits of education*
+  -  *Literacy rate*
 - If no predefined response matches, EduBot fetches a summary from **Wikipedia**
 
 ## 🔧 API Reference
@@ -136,7 +136,7 @@ Send a message to the chatbot.
 }
 ```
 
-## 📋 Topics Covered
+##  Topics Covered
 
 | Category                          | Examples                                         |
 |-----------------------------------|--------------------------------------------------|
@@ -155,9 +155,8 @@ Send a message to the chatbot.
 
 =======
 - **Nagorao Dinkar Kute**
->>>>>>> 47f17bb05ee2859e5d7f83d82f94639bb750c3f8
 
-## 📄 License
+##  License
 
 This project is open source and available for educational purposes.
 
@@ -165,6 +164,6 @@ This project is open source and available for educational purposes.
 
 <div align="center">
 
-⭐ **Star this repo if you found it helpful!** ⭐
+ **Star this repo if you found it helpful!** 
 
 </div>
